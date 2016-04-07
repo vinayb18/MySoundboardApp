@@ -27,7 +27,59 @@ public class MainActivity extends AppCompatActivity {
         firstSound.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-           mpvoice006.start();
+                mpvoice006.start();
+            }
+        });
+
+        //set up the button sound
+
+        final MediaPlayer mpvoice001 = MediaPlayer.create(this, R.raw.voice_001);
+
+        Button secondSound = (Button) findViewById(R.id.secondSound);
+
+        secondSound.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mpvoice001.start();
+            }
+        });
+
+        //set up the button sound
+
+        final MediaPlayer mpvoice002 = MediaPlayer.create(this, R.raw.voice_002);
+
+        Button thirdSound = (Button) findViewById(R.id.thirdSound);
+
+        thirdSound.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mpvoice002.start();
+            }
+        });
+
+          //set up the button sound
+
+        final MediaPlayer mpvoice003 = MediaPlayer.create(this, R.raw.voice_003);
+
+        Button fourthSound = (Button) findViewById(R.id.fourthSound);
+
+        fourthSound.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mpvoice003.start();
+            }
+        });
+
+        //set up the button sound
+
+        final MediaPlayer mpvoice004 = MediaPlayer.create(this, R.raw.voice_004);
+
+        Button fifthSound = (Button) findViewById(R.id.fifthSound);
+
+        fifthSound.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mpvoice004.start();
             }
         });
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);

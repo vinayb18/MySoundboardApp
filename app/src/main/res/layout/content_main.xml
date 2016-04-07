@@ -15,7 +15,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Button"
+        android:text="@string/bandamaker"
         android:id="@+id/firstSound"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="85dp" />
@@ -27,5 +27,37 @@
         android:text="@string/soundboard"
         android:id="@+id/textView"
         android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tango"
+        android:id="@+id/secondSound"
+        android:layout_below="@+id/firstSound"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/banter"
+        android:id="@+id/thirdSound"
+        android:layout_below="@+id/secondSound"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/alrighttt"
+        android:id="@+id/fourthSound"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/whatdoyouthinkarmaaan"
+        android:id="@+id/fifthSound"
+        android:layout_below="@+id/fourthSound"
         android:layout_centerHorizontal="true" />
 </RelativeLayout>
